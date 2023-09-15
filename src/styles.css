@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    margin: 30px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.main-card {
+    display: flex;
+    background-color: #0aa0f6;
+    max-width: 500px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 15px -17px 0 -12px;
+}
+
+.weather-forecast-row {
+    margin: -13px 10px 20px;
+}
+
+.weekday-card-body {
+    display: block;
+}
+
+.weekday-cards {
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    border: 0px solid transparent;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.weekday-icon {
+    position: relative;
+    top: -5px;
+}
+
+.weekday-text {
+    margin: 20px auto 5px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.weekday-degrees {
+    margin: auto;
+    text-align: center;
+    font-size: small;
+}
+
+.forecast-min {
+    opacity: 0.5;
+}

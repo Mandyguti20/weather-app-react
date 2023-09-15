@@ -1,4 +1,5 @@
 import './App.css';
+import BigIcon from "./BigIcon";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <p>
           Hello World!
         </p>
+        <BigIcon />
       </header>
     </div>
   );

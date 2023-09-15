@@ -1,0 +1,11 @@
+.row {
+    margin: 8px -17px -5px -12px;
+}
+
+.big-icon {
+    display: flex;
+    position: relative;
+    top: -30px;
+    right: 15px;
+    background: transparent;
+}
