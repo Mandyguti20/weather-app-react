@@ -2,24 +2,33 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import BigIcon from "./BigIcon";
 import CityData from "./CityData";
+import Search from "./Search";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World!
-        </p>
-        <BigIcon />
-        <CityData
-          weekDay="Sunday"
-          weekValue="21"
-          month="May"
-          cityName="Branford, CT"
-        />
-      </header>
+      <div className="container-fluid">
+        <div className="card main-card">
+          <div className="card-body">
+            <Search city="branford" />
+            <div className="row">
+              <div className="col-4">
+                <BigIcon />
+              </div>
+              <div className="col-4">
+                <CityData
+                  weekDay="Sunday"
+                  weekValue="21"
+                  month="May"
+                  cityName="Branford, CT"
+                />
+              </div>
+            </div>
+          </div>      
+        </div>
+      </div>
     </div>
   );
 }
