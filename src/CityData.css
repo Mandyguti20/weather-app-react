@@ -1,0 +1,12 @@
+.city-name {
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+    font-size: 16px;
+}
+
+.current-date {
+    color: white;
+    font-size: 11px;
+    text-align: left;
+}
