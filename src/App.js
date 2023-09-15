@@ -4,6 +4,8 @@ import BigIcon from "./BigIcon";
 import CityData from "./CityData";
 import Search from "./Search";
 import Footer from "./Footer";
+import WeatherDescription from "./WeatherDescription";
+
 
 import "./styles.css";
 
@@ -25,6 +27,9 @@ function App() {
                   month="May"
                   cityName="Branford, CT"
                 />
+              </div>
+              <div className="col-4">
+                <WeatherDescription value="60" wind="3" humidity="95" />
               </div>
             </div>
           </div>      
