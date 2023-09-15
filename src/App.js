@@ -3,6 +3,7 @@ import './App.css';
 import BigIcon from "./BigIcon";
 import CityData from "./CityData";
 import Search from "./Search";
+import Footer from "./Footer";
 
 import "./styles.css";
 
@@ -29,6 +30,7 @@ function App() {
           </div>      
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
