@@ -14,12 +14,12 @@ export default function WeatherDescription(props) {
             </li>
             <li>
               <p className="wind">
-                Wind: <span class="wind">{props.wind} </span>mph
+                Wind: <span className="wind">{props.wind} </span>mph
               </p>
             </li>
             <li>
               <p className="humidity">
-                Humidity: <span class="humidity">{props.humidity}</span>%
+                Humidity: <span className="humidity">{props.humidity}</span>%
               </p>
             </li>
           </ul>
